@@ -1,7 +1,7 @@
 I went to the August 21st White Sox game with my family and parents,
-and my Dad pointed out that the White Sox backup catcher, Carlos Sanchez,
-who went 0 for 4, 
-Where does that rank among the worst batting average of all time?
+and Dad pointed out that the White Sox backup catcher, Carlos Sanchez,
+who went 0 for 4, dropped his average to .125 in 72 at bats.
+Where does that rank among the worst batting averages of all time?
 An excellent problem to solve with R and the Lahman baseball library.
 
 Let's start by importing the Lahman baseball statistics.
