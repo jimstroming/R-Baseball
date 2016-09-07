@@ -61,6 +61,8 @@ with at least 70 at bats.
 17140 corbege01   1938     1    PHI   NL 24 75 7 6   1   0  2   7  0 NA  6 11  NA   0  0 NA    1 0.08000000
 3352  riddljo01   1890     1    PH4   AA 27 85 7 7   0   1  0   2  4 NA 17 NA  NA   1 NA NA   NA 0.08235294
 
+Wow.  Sanchez wouldn't even make the top 6.  
+
 Let's try more at bats.  How about the worst batting averages with 100 at bats?
 > orderedBattingnopitchers_100atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 100)
 > head(orderedBattingnopitchers_100atbats)
@@ -94,4 +96,61 @@ Let's try more at bats.  How about the worst batting averages with 100 at bats?
 3251  keenaji01   1890     1    CIN   NL  54 202 21 28   4   2  3  19  5 NA 19 36  NA   1 NA NA   NA 0.1386139
 7491  bergebi01   1909     1    BRO   NL 112 346 16 48   1   1  1  15  4 NA 10 NA  NA   0 16 NA   NA 0.1387283
 
+300 at bats
+> orderedBattingnopitchers_300atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 300)
+> head(orderedBattingnopitchers_300atbats)
+       playerID yearID stint teamID lgID   G  AB  R  H X2B X3B HR RBI SB CS BB  SO IBB HBP SH SF GIDP        BA
+7491  bergebi01   1909     1    BRO   NL 112 346 16 48   1   1  1  15  4 NA 10  NA  NA   0 16 NA   NA 0.1387283
+2091  gerhajo01   1885     1    NY1   NL 112 399 43 62  12   2  0  33 NA NA 24  47  NA  NA NA NA   NA 0.1553885
+6655  bergebi01   1906     1    BRO   NL 103 353  9 56   3   3  0  19  2 NA  7  NA  NA   0 12 NA   NA 0.1586402
+53850  dunnad01   2011     1    CHA   AL 122 415 36 66  16   0 11  42  0  1 75 177   0   4  0  2   10 0.1590361
+1505  bakerge01   1884     1    SLU   UA  80 317 39 52   6   0  0  NA  0 NA  5  NA  NA  NA NA NA   NA 0.1640379
+3731  canavji01   1892     1    CHN   NL 118 439 48 73  10  11  0  32 33 NA 48  48  NA   0 NA NA   NA 0.1662870
+
+Here's the Big Donkey, Adam Dunn's, disastrous 2011 season appears for the first time
+
+400 at bats
+> orderedBattingnopitchers_400atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 400)
+> head(orderedBattingnopitchers_400atbats)
+       playerID yearID stint teamID lgID   G  AB  R  H X2B X3B HR RBI SB CS BB  SO IBB HBP SH SF GIDP        BA
+53850  dunnad01   2011     1    CHA   AL 122 415 36 66  16   0 11  42  0  1 75 177   0   4  0  2   10 0.1590361
+3731  canavji01   1892     1    CHN   NL 118 439 48 73  10  11  0  32 33 NA 48  48  NA   0 NA NA   NA 0.1662870
+3147  conrobe01   1890     1    PH4   AA 117 404 45 69  13   1  0  21 17 NA 45  NA  NA   5 NA NA   NA 0.1707921
+40754  deerro01   1991     1    DET   AL 134 448 64 80  14   2 25  64  1  3 89 175   1   0  0  2    3 0.1785714
+55673 ugglada01   2013     1    ATL   NL 136 448 60 80  10   3 22  55  2  0 77 171   2   9  0  3    7 0.1785714
+3716  boyleja01   1892     1    NY1   NL 120 436 52 80   8   8  0  32 10 NA 36  41  NA   4 NA NA   NA 0.1834862
+
+500 at bats
+> orderedBattingnopitchers_500atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 500)
+> head(orderedBattingnopitchers_500atbats)
+       playerID yearID stint teamID lgID   G  AB  R   H X2B X3B HR RBI SB CS BB  SO IBB HBP SH SF GIDP        BA
+6166  crossmo01   1904     1    PHA   AL 153 503 33  95  23   4  1  38 19 NA 46  NA  NA   7 17 NA   NA 0.1888668
+17764 crosefr01   1940     1    NYA   AL 145 546 84 106  23   4  4  31 14  8 72  77  NA  10  5 NA   17 0.1941392
+15767 leveyji01   1933     1    SLA   AL 141 529 43 103  10   4  2  36  4  6 26  68  NA   3  9 NA   NA 0.1947070
+28339 treshto01   1968     1    NYA   AL 152 507 60  99  18   3 11  52 10  5 76  97   8   4  1  2    8 0.1952663
+28357  wertdo01   1968     1    DET   AL 150 536 44 107  15   1 12  37  0  3 37  79   7   5 11  0   12 0.1996269
+27937 versazo01   1967     1    MIN   AL 160 581 63 116  16   7  6  50  5  3 33 113   2   6  3  3   15 0.1996558
+
+600 at bats 
+> orderedBattingnopitchers_600atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 600)
+> head(orderedBattingnopitchers_600atbats)
+       playerID yearID stint teamID lgID   G  AB  R   H X2B X3B HR RBI SB CS  BB  SO IBB HBP SH SF GIDP        BA
+20185  lakeed01   1947     1    DET   AL 158 602 96 127  19   6 12  46 11 10 120  54  NA   1  9 NA   14 0.2109635
+3774  farredu01   1892     1    PIT   NL 152 605 96 130  10  13  8  77 20 NA  46  53  NA   5 NA NA   NA 0.2148760
+30280 metzgro01   1972     1    HOU   NL 153 641 84 142  12   3  2  38 23  9  60  71   1   1  9  4    7 0.2215289
+11723 powelra01   1920     1    BSN   NL 147 609 69 137  12  12  6  29 10 18  44  83  NA   4  9 NA   NA 0.2249589
+54361 ackledu01   2012     1    SEA   AL 153 607 84 137  22   2 12  50 13  3  59 124   7   0  1  1    3 0.2257002
+25713 santoro01   1962     1    CHN   NL 162 604 44 137  20   4 17  83  4  1  65  94   5   2  3  5   17 0.2268212
+
+Now we have a Hall-of-Famer, Cub great Ron Santo. 
+700 at bats 
+> orderedBattingnopitchers_700atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 700)
+> head(orderedBattingnopitchers_700atbats)
+       playerID yearID stint teamID lgID   G  AB   R   H X2B X3B HR RBI SB CS BB  SO IBB HBP SH SF GIDP        BA
+37052 samueju01   1984     1    PHI   NL 160 701 105 191  36  19 15  69 72 15 28 168   2   7  0  1    6 0.2724679
+51540 rolliji01   2007     1    PHI   NL 162 716 139 212  38  20 30  94 41  6 49  85   5   7  0  6   11 0.2960894
+34838 wilsowi02   1980     1    KCA   AL 161 705 133 230  28  15  3  49 79 10 28  81   3   6  5  1    4 0.3262411
+49572 suzukic01   2004     1    SEA   AL 161 704 101 262  24   5  8  60 36 11 49  63  19   4  2  3    6 0.3721591
+
+And last, we have the only 4 men with 700 at bats in a season.
 
