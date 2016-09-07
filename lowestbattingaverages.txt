@@ -1,0 +1,44 @@
+I went to the August 21st White Sox game with my family and parents,
+and my Dad pointed out that the White Sox backup catcher, Carlos Sanchez,
+who went 0 for 4, 
+Where does that rank among the worst batting average of all time?
+An excellent problem to solve with R and the Lahman baseball library.
+
+Let's start by importing the Lahman baseball statistics.
+
+> install.packages("Lahman")
+> library(Lahman)
+> Batting <- read.csv("Batting.csv")
+
+Let's select batters with at least 70 at bats in a season
+
+> Batting.70atbats <- subset(Batting, AB >= 70)
+
+Let's add the batting averages
+
+> Batting.70atbats$BA <- with(Batting.70atbats, H / AB)
+
+And sort by batting average
+
+> Batting.sorted70atbats <- Batting.70atbats[pos,c("playerID","yearID","AB","H","BA")]
+
+        playerID yearID  AB   H         BA
+4804   mcculch01   1890  86   2 0.02325581
+45092  chancde01   1966  76   2 0.02631579
+41949  aguirha01   1962  75   2 0.02666667
+39638  klinero01   1958  74   2 0.02702703
+86501  haranaa01   2005  74   2 0.02702703
+45865  chancde01   1967  92   3 0.03260870
+11002  sparktu01   1907  89   3 0.03370787
+2618   shallgu01   1884  84   3 0.03571429
+25241  johnssi01   1933  72   3 0.04166667
+44434  frienbo01   1965  71   3 0.04225352
+41058  pappami01   1960  70   3 0.04285714
+66421  bielemi01   1989  70   3 0.04285714
+69090  leibrch01   1991  70   3 0.04285714
+
+Wow, these are horrible batting averages:  2 for 86. 2 for 76.
+The problem is, the names I recognize on this list are pitchers.
+I want the non-pitchers with the lowest batting averages.
+
+In python, let's filter all the pitchers out of the batting data.
