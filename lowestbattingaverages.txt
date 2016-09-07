@@ -41,4 +41,23 @@ Wow, these are horrible batting averages:  2 for 86. 2 for 76.
 The problem is, the names I recognize on this list are pitchers.
 I want the non-pitchers with the lowest batting averages.
 
-In python, let's filter all the pitchers out of the batting data.
+So, in python, I filter all the pitchers out of the batting data,
+and come back to R.
+
+> Battingnopitchers <- read.csv("Batting_nopitchers.csv")
+> Battingnopitchers.70atbats <- subset(Battingnopitchers, AB >= 70)
+> Battingnopitchers.70atbats$BA <- with(Battingnopitchers.70atbats, H / AB)
+
+Now, let's see the worst batting averages (prior to 2016) of non-pitchers
+with at least 70 at bats.
+
+> orderedBattingnopitchers_70atbats <- Battingnopitchers_70atbats[order(Battingnopitchers_70atbats$BA),]
+> head(orderedBattingnopitchers_70atbats)
+       playerID yearID stint teamID lgID  G AB R H X2B X3B HR RBI SB CS BB SO IBB HBP SH SF GIDP         BA
+1700  hannajo01   1884     1    WS7   AA 23 76 8 5   0   0  0   0  0 NA  6 NA  NA   0 NA NA   NA 0.06578947
+38555 karkoro01   1987     1    CHA   AL 39 85 7 6   0   0  2   7  3  0  7 40   0   2  1  0    2 0.07058824
+1668  gastfed01   1884     1    DTN   NL 23 82 6 6   1   0  0   2 NA NA  2 34  NA  NA NA NA   NA 0.07317073
+15029 connoed01   1931     1    BOS   AL 42 93 3 7   1   0  0   3  0  0  5 18  NA   1  1 NA   NA 0.07526882
+17140 corbege01   1938     1    PHI   NL 24 75 7 6   1   0  2   7  0 NA  6 11  NA   0  0 NA    1 0.08000000
+3352  riddljo01   1890     1    PH4   AA 27 85 7 7   0   1  0   2  4 NA 17 NA  NA   1 NA NA   NA 0.08235294
+
