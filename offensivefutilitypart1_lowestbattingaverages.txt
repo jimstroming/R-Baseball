@@ -120,6 +120,10 @@ Here's the Big Donkey, Adam Dunn's, disastrous 2011 season appears for the first
 55673 ugglada01   2013     1    ATL   NL 136 448 60 80  10   3 22  55  2  0 77 171   2   9  0  3    7 0.1785714
 3716  boyleja01   1892     1    NY1   NL 120 436 52 80   8   8  0  32 10 NA 36  41  NA   4 NA NA   NA 0.1834862
 
+Dunn's year was horrible.  He had only 11 home runs while striking out 177 times.  Even more 
+remarkable is his 75 walks to go with 66 hits;  White Sox outfielder Alex Rios had a lower on base 
+percentage that year.  Not a great year for White Sox hitters.
+
 500 at bats
 > orderedBattingnopitchers_500atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 500)
 > head(orderedBattingnopitchers_500atbats)
