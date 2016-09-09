@@ -171,25 +171,35 @@ Uggla won a Silver Slugger in 2010 and then quit hitting.
 > orderedBattingnopitchers_500atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 500)
 > head(orderedBattingnopitchers_500atbats)
        playerID yearID stint teamID lgID   G  AB  R   H X2B X3B HR RBI SB CS BB  SO IBB HBP SH SF GIDP        BA
-6166  crossmo01   1904     1    PHA   AL 153 503 33  95  23   4  1  38 19 NA 46  NA  NA   7 17 NA   NA 0.1888668
-17764 crosefr01   1940     1    NYA   AL 145 546 84 106  23   4  4  31 14  8 72  77  NA  10  5 NA   17 0.1941392
-15767 leveyji01   1933     1    SLA   AL 141 529 43 103  10   4  2  36  4  6 26  68  NA   3  9 NA   NA 0.1947070
-28339 treshto01   1968     1    NYA   AL 152 507 60  99  18   3 11  52 10  5 76  97   8   4  1  2    8 0.1952663
-28357  wertdo01   1968     1    DET   AL 150 536 44 107  15   1 12  37  0  3 37  79   7   5 11  0   12 0.1996269
-27937 versazo01   1967     1    MIN   AL 160 581 63 116  16   7  6  50  5  3 33 113   2   6  3  3   15 0.1996558
+5619  crossmo01   1904     1    PHA   AL 153 503 33  95  23   4  1  38 19 NA 46  NA  NA   7 17 NA   NA 0.1888668
+16571 crosefr01   1940     1    NYA   AL 145 546 84 106  23   4  4  31 14  8 72  77  NA  10  5 NA   17 0.1941392
+14676 leveyji01   1933     1    SLA   AL 141 529 43 103  10   4  2  36  4  6 26  68  NA   3  9 NA   NA 0.1947070
+26311 treshto01   1968     1    NYA   AL 152 507 60  99  18   3 11  52 10  5 76  97   8   4  1  2    8 0.1952663
+5717  moranch01   1904     2    tot   AL 144 515 42 101  13   1  0  21  9 NA 48  NA  NA   0 15 NA   NA 0.1961165
+26327  wertdo01   1968     1    DET   AL 150 536 44 107  15   1 12  37  0  3 37  79   7   5 11  0   12 0.1996269
+25927 versazo01   1967     1    MIN   AL 160 581 63 116  16   7  6  50  5  3 33 113   2   6  3  3   15 0.1996558
+3361  smithge01   1891     1    CIN   NL 138 512 50 103  11   5  3  53 16 NA 38  32  NA   1 NA NA   NA 0.2011719
+8761  mcbrige01   1914     1    WS1   AL 156 503 49 102  12   4  0  24 12 14 43  70  NA   6 22 NA   NA 0.2027833
 
 600 at bats 
 > orderedBattingnopitchers_600atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 600)
 > head(orderedBattingnopitchers_600atbats)
-       playerID yearID stint teamID lgID   G  AB  R   H X2B X3B HR RBI SB CS  BB  SO IBB HBP SH SF GIDP        BA
-20185  lakeed01   1947     1    DET   AL 158 602 96 127  19   6 12  46 11 10 120  54  NA   1  9 NA   14 0.2109635
-3774  farredu01   1892     1    PIT   NL 152 605 96 130  10  13  8  77 20 NA  46  53  NA   5 NA NA   NA 0.2148760
-30280 metzgro01   1972     1    HOU   NL 153 641 84 142  12   3  2  38 23  9  60  71   1   1  9  4    7 0.2215289
-11723 powelra01   1920     1    BSN   NL 147 609 69 137  12  12  6  29 10 18  44  83  NA   4  9 NA   NA 0.2249589
-54361 ackledu01   2012     1    SEA   AL 153 607 84 137  22   2 12  50 13  3  59 124   7   0  1  1    3 0.2257002
-25713 santoro01   1962     1    CHN   NL 162 604 44 137  20   4 17  83  4  1  65  94   5   2  3  5   17 0.2268212
+       playerID yearID stint teamID lgID   G  AB   R   H X2B X3B HR RBI  SB CS  BB  SO IBB HBP SH SF GIDP        BA
+18864  lakeed01   1947     1    DET   AL 158 602  96 127  19   6 12  46  11 10 120  54  NA   1  9 NA   14 0.2109635
+3451  farredu01   1892     1    PIT   NL 152 605  96 130  10  13  8  77  20 NA  46  53  NA   5 NA NA   NA 0.2148760
+28118 metzgro01   1972     1    HOU   NL 153 641  84 142  12   3  2  38  23  9  60  71   1   1  9  4    7 0.2215289
+10824 powelra01   1920     1    BSN   NL 147 609  69 137  12  12  6  29  10 18  44  83  NA   4  9 NA   NA 0.2249589
+50554 ackledu01   2012     1    SEA   AL 153 607  84 137  22   2 12  50  13  3  59 124   7   0  1  1    3 0.2257002
+23869 santoro01   1962     1    CHN   NL 162 604  44 137  20   4 17  83   4  1  65  94   5   2  3  5   17 0.2268212
+3406  brownto01   1892     1    LS3   NL 153 660 105 150  16   8  2  45  78 NA  47  94  NA   5 NA NA   NA 0.2272727
+32310 smithoz01   1980     1    SDN   NL 158 609  67 140  18   5  0  35  57 15  71  49   1   5 23  4    9 0.2298851
+26314 unserde01   1968     1    WS2   AL 156 635  66 146  13   7  1  30  11  6  46  66   1   2  3  4    5 0.2299213
+35227 colemvi01   1986     1    SLN   NL 154 600  94 139  13   8  0  29 107 14  60  98   0   2  3  5    4 0.2316667
 
-Now we have a Hall-of-Famer, Cub great Ron Santo. 
+Now we have a Hall-of-Famer, Cub great Ron Santo. 1962 was his second full season.  He would bounce back in 1963.
+Ozzie Smith couldn't hit with San Diego, but hit .272 in St Louis.
+And Vince Coleman couldn't steal first in 1986.
+
 700 at bats 
 > orderedBattingnopitchers_700atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 700)
 > head(orderedBattingnopitchers_700atbats)
@@ -208,4 +218,4 @@ And Ichiro's monster 372 batting average by far the most of anyone with 700 at b
 
 All this focus on batting average seems very 1980sish, however. 
 In part two, we will look at the lowest on base percentages of all time, removing
-Messrs. Dunn and Karkovice from the list, and adding a three-time Cub all star.
+Messrs. Karkovice and Dunn from the list, and adding a three-time Cub all star.
