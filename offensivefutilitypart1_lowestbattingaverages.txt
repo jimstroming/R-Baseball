@@ -1,5 +1,5 @@
 I went to the August 21st White Sox game with my family and parents,
-and Dad pointed out that the White Sox backup catcher, Carlos Sanchez,
+and Dad pointed out that White Sox infielder Carlos Sanchez,
 who went 0 for 4, dropped his average to .125 in 72 at bats.
 Where does that rank among the worst batting averages of all time?
 An excellent problem to solve with R and the Lahman baseball library.
@@ -85,22 +85,30 @@ Let's try more at bats.  How about the worst batting averages with 100 at bats?
 8029  orourfr01   1912     1    BSN   NL 61 196 11 24   3   1  0  16  1 NA 11 50  NA   2  7 NA   NA 0.12244898
 37882 benjami01   1991     1    SFN   NL 54 106 12 13   3   0  2   8  3  0  7 26   2   2  3  2    1 0.12264151
 
-Two players from 1991 made this list:  
-Jose Gonzalez was a defensive replacement outfielder for the Dodgers.  
+Some rough hitting from 1883 to 1885.  
+Two players from 1991 made this list.  Hard to believe this was the start of the steroid era:  
+Jose Gonzalez was a defensive outfielder for the Dodgers.  
 He appeared in 159 games in his career in which he did not bat, which was a good thing.
-In the same division, Mike Benjamin was hitting .122 for the Giants.
-Had to believe this was the start of the steroid era.
+In the same division, Mike Benjamin was hitting .122 at shortstop for the Giants.
 
 150 at bats
 > orderedBattingnopitchers_150atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 150)
 > head(orderedBattingnopitchers_150atbats)
        playerID yearID stint teamID lgID   G  AB  R  H X2B X3B HR RBI SB CS BB SO IBB HBP SH SF GIDP        BA
-2673  burdoja01   1888     2    BR3   AA  70 246 15 30   1   2  1   8  9 NA  8 NA  NA   5 NA NA   NA 0.1219512
-8739  orourfr01   1912     1    BSN   NL  61 196 11 24   3   1  0  16  1 NA 11 50  NA   2  7 NA   NA 0.1224490
-7953  killebi01   1910     1    SLA   AL  74 193 14 24   2   2  0   7  0 NA 12 NA  NA   2  8 NA   NA 0.1243523
-33600 pujollu01   1978     1    HOU   NL  56 153 11 20   8   1  1  11  0  0 12 45   1   1  2  1    6 0.1307190
-8139  bergebi01   1911     1    BRO   NL  84 227  8 30   3   1  0  10  2 NA 14 42  NA   0  9 NA   NA 0.1321586
+8029  orourfr01   1912     1    BSN   NL  61 196 11 24   3   1  0  16  1 NA 11 50  NA   2  7 NA   NA 0.1224490
+7284  killebi01   1910     1    SLA   AL  74 193 14 24   2   2  0   7  0 NA 12 NA  NA   2  8 NA   NA 0.1243523
+31211 pujollu01   1978     1    HOU   NL  56 153 11 20   8   1  1  11  0  0 12 45   1   1  2  1    6 0.1307190
+7455  bergebi01   1911     1    BRO   NL  84 227  8 30   3   1  0  10  2 NA 14 42  NA   0  9 NA   NA 0.1321586
+26222 oylerra01   1968     1    DET   AL 111 215 13 29   6   1  1  12  0  2 20 59   0   2  7  3    8 0.1348837
+8301  lavando01   1913     2    tot   AL  51 163  9 22   2   2  0   5  3 NA 10 46  NA   3  4 NA   NA 0.1349693
+2643  bastich01   1889     1    CHN   NL  46 155 19 21   0   0  0  10  1 NA 25 46  NA   0 NA NA   NA 0.1354839
+2170  mclauto01   1886     1    NY4   AA  74 250 27 34   3   1  0  16 13 NA 26 NA  NA   1 NA NA   NA 0.1360000
+2115  gladmbu01   1886     1    WS8   NL  44 152 17 21   5   3  1  15  5 NA 12 30  NA  NA NA NA   NA 0.1381579
+1557  gunsojo01   1884     1    WSU   UA  45 166 15 23   2   0  0  NA  0 NA  3 NA  NA  NA NA NA   NA 0.1385542
 28246 oylerra01   1968     1    DET   AL 111 215 13 29   6   1  1  12  0  2 20 59   0   2  7  3    8 0.1348837
+
+Mostly dead ball era, the 1880s, and the year of the pitcher.
+The exception is Luis Pujols, a lifetime .193 hitter as a backup catcher.  
 
 200 at bats
 > orderedBattingnopitchers_200atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 200)
