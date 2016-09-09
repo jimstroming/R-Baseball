@@ -5,9 +5,8 @@ Where does that rank among the worst batting averages of all time?
 An excellent problem to solve with R and the Lahman baseball library.
 
 Let's start by importing the Lahman baseball statistics.
+(Available from Sean Lahman at http://www.seanlahman.com/baseball-archive/statistics/)
 
-> install.packages("Lahman")
-> library(Lahman)
 > Batting <- read.csv("Batting.csv")
 
 Let's select batters with at least 70 at bats in a season
@@ -42,37 +41,49 @@ The problem is, the names I recognize on this list are pitchers.
 I want the non-pitchers with the lowest batting averages.
 
 So, in python, I filter all the pitchers out of the batting data,
-and come back to R.
+combine seasons for players traded during the year, and come back to R.
 
 > Battingnopitchers <- read.csv("Batting_nopitchers.csv")
-> Battingnopitchers.70atbats <- subset(Battingnopitchers, AB >= 70)
-> Battingnopitchers.70atbats$BA <- with(Battingnopitchers.70atbats, H / AB)
+> Battingnopitchers_70atbats <- subset(Battingnopitchers, AB >= 70)
+> Battingnopitchers_70atbats$BA <- with(Battingnopitchers_70atbats, H / AB)
 
 Now, let's see the worst batting averages (prior to 2016) of non-pitchers
 with at least 70 at bats.
 
 > orderedBattingnopitchers_70atbats <- Battingnopitchers_70atbats[order(Battingnopitchers_70atbats$BA),]
 > head(orderedBattingnopitchers_70atbats)
-       playerID yearID stint teamID lgID  G AB R H X2B X3B HR RBI SB CS BB SO IBB HBP SH SF GIDP         BA
-1700  hannajo01   1884     1    WS7   AA 23 76 8 5   0   0  0   0  0 NA  6 NA  NA   0 NA NA   NA 0.06578947
-38555 karkoro01   1987     1    CHA   AL 39 85 7 6   0   0  2   7  3  0  7 40   0   2  1  0    2 0.07058824
-1668  gastfed01   1884     1    DTN   NL 23 82 6 6   1   0  0   2 NA NA  2 34  NA  NA NA NA   NA 0.07317073
-15029 connoed01   1931     1    BOS   AL 42 93 3 7   1   0  0   3  0  0  5 18  NA   1  1 NA   NA 0.07526882
-17140 corbege01   1938     1    PHI   NL 24 75 7 6   1   0  2   7  0 NA  6 11  NA   0  0 NA    1 0.08000000
-3352  riddljo01   1890     1    PH4   AA 27 85 7 7   0   1  0   2  4 NA 17 NA  NA   1 NA NA   NA 0.08235294
+       playerID yearID stint teamID lgID  G AB  R H X2B X3B HR RBI SB CS BB SO IBB HBP SH SF GIDP         BA
+35921 karkoro01   1987     1    CHA   AL 39 85  7 6   0   0  2   7  3  0  7 40   0   2  1  0    2 0.07058824
+1534  gastfed01   1884     1    DTN   NL 23 82  6 6   1   0  0   2 NA NA  2 34  NA  NA NA NA   NA 0.07317073
+13982 connoed01   1931     1    BOS   AL 42 93  3 7   1   0  0   3  0  0  5 18  NA   1  1 NA   NA 0.07526882
+15984 corbege01   1938     1    PHI   NL 24 75  7 6   1   0  2   7  0 NA  6 11  NA   0  0 NA    1 0.08000000
+1046  smithpo01   1881     3    tot   NL 24 86  5 7   0   0  0   6 NA NA  6 18  NA  NA NA NA   NA 0.08139535
+3074  riddljo01   1890     1    PH4   AA 27 85  7 7   0   1  0   2  4 NA 17 NA  NA   1 NA NA   NA 0.08235294
+30720 scrivch01   1977     1    DET   AL 61 72 10 6   0   0  0   2  0  0  5  9   0   0  3  0    1 0.08333333
+45102  cruzen01   2003     1    MIL   NL 60 71  6 6   1   0  0   2  0  0  4 30   0   1  0  0    2 0.08450704
+1108  forstto01   1882     1    DTN   NL 21 76  5 7   0   0  0   2 NA NA  5 12  NA  NA NA NA   NA 0.09210526
+51979 floripe01   2014     1    MIN   AL 33 76  7 7   1   1  0   1  6  0  8 22   0   0  2  0    2 0.09210526
 
-Wow.  Sanchez wouldn't even make the top 6.  
+Sanchez doesn't make the top 10, but the worst average belongs to another backup White Sox catcher,
+Ron Karkovice.  A first round pick of the White Sox, Karko was a career .221 hitter. 
+Amazing to see two of the top four from the offensive happy 1930s.
+The recent entrant on the list, Pedro Florimon, has accumulated 717 plate appearances over five seasons
+with a .199 career batting average.
 
 Let's try more at bats.  How about the worst batting averages with 100 at bats?
 > orderedBattingnopitchers_100atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 100)
 > head(orderedBattingnopitchers_100atbats)
        playerID yearID stint teamID lgID  G  AB  R  H X2B X3B HR RBI SB CS BB SO IBB HBP SH SF GIDP         BA
-1850   navasa01   1884     1    PRO   NL 34 116 10 11   0   0  0   6 NA NA 11 35  NA  NA NA NA   NA 0.09482759
-3247  jordami01   1890     1    PIT   NL 37 125  8 12   1   0  0   6  5 NA 15 19  NA   3 NA NA   NA 0.09600000
-9852   eganbe01   1915     1    CLE   AL 42 120  4 13   3   0  0   6  0 NA  8 14  NA   0  4 NA   NA 0.10833333
-6137  buelofr01   1904     1    DET   AL 42 136  6 15   1   1  0   5  2 NA  8 NA  NA   0  6 NA   NA 0.11029412
-1384  humphjo01   1883     1    NY1   NL 29 107  5 12   1   0  0   4 NA NA  1 22  NA  NA NA NA   NA 0.11214953
-18483 hemslro01   1942     1    CIN   NL 36 115  7 13   1   2  0   7  0 NA  4 11  NA   0  0 NA    1 0.11304348
+1689   navasa01   1884     1    PRO   NL 34 116 10 11   0   0  0   6 NA NA 11 35  NA  NA NA NA   NA 0.09482759
+2977  jordami01   1890     1    PIT   NL 37 125  8 12   1   0  0   6  5 NA 15 19  NA   3 NA NA   NA 0.09600000
+9070   eganbe01   1915     1    CLE   AL 42 120  4 13   3   0  0   6  0 NA  8 14  NA   0  4 NA   NA 0.10833333
+38023 gonzajo02   1991     3    tot   AL 91 117 15 13   2   1  2   7  8  0 13 42   0   1  2  1    2 0.11111111
+1298  humphjo01   1883     1    NY1   NL 29 107  5 12   1   0  0   4 NA NA  1 22  NA  NA NA NA   NA 0.11214953
+1346  piercgr01   1883     2    tot   NL 29 103  8 12   0   1  0   2  0 NA  1  9  NA  NA NA NA   NA 0.11650485
+28300 anderdw01   1973     2    tot   NL 71 124 16 15   0   0  0   3  2  0 18 33   0   0  2  0    2 0.12096774
+1833  bakerge01   1885     1    SL5   NL 38 131  5 16   0   0  0   5 NA NA  9 28  NA  NA NA NA   NA 0.12213740
+8029  orourfr01   1912     1    BSN   NL 61 196 11 24   3   1  0  16  1 NA 11 50  NA   2  7 NA   NA 0.12244898
+37882 benjami01   1991     1    SFN   NL 54 106 12 13   3   0  2   8  3  0  7 26   2   2  3  2    1 0.12264151
 
 150 at bats
 > orderedBattingnopitchers_150atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 150)
@@ -163,6 +174,6 @@ the at bat record by 11.
 I remember that blacktype 705 from Willy Wilson's baseball card.   
 And Ichiro's monster 372 batting average by far the most of anyone with 700 at bats.
 
-All this focus on batting average seems very 1980ish, however. 
+All this focus on batting average seems very 1980sish, however. 
 In part two, we will look at the lowest on base percentages of all time, removing
 Messrs. Dunn and Karkovice from the list, and adding a three-time Cub all star.
