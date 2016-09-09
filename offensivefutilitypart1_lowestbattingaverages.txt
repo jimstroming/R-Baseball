@@ -114,40 +114,58 @@ The exception is Luis Pujols, a lifetime .193 hitter as a backup catcher.
 > orderedBattingnopitchers_200atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 200)
 > head(orderedBattingnopitchers_200atbats)
        playerID yearID stint teamID lgID   G  AB  R  H X2B X3B HR RBI SB CS BB SO IBB HBP SH SF GIDP        BA
-2673  burdoja01   1888     2    BR3   AA  70 246 15 30   1   2  1   8  9 NA  8 NA  NA   5 NA NA   NA 0.1219512
-8139  bergebi01   1911     1    BRO   NL  84 227  8 30   3   1  0  10  2 NA 14 42  NA   0  9 NA   NA 0.1321586
-28246 oylerra01   1968     1    DET   AL 111 215 13 29   6   1  1  12  0  2 20 59   0   2  7  3    8 0.1348837
-2388  mclauto01   1886     1    NY4   AA  74 250 27 34   3   1  0  16 13 NA 26 NA  NA   1 NA NA   NA 0.1360000
-3251  keenaji01   1890     1    CIN   NL  54 202 21 28   4   2  3  19  5 NA 19 36  NA   1 NA NA   NA 0.1386139
-7491  bergebi01   1909     1    BRO   NL 112 346 16 48   1   1  1  15  4 NA 10 NA  NA   0 16 NA   NA 0.1387283
+7455  bergebi01   1911     1    BRO   NL  84 227  8 30   3   1  0  10  2 NA 14 42  NA   0  9 NA   NA 0.1321586
+26222 oylerra01   1968     1    DET   AL 111 215 13 29   6   1  1  12  0  2 20 59   0   2  7  3    8 0.1348837
+2170  mclauto01   1886     1    NY4   AA  74 250 27 34   3   1  0  16 13 NA 26 NA  NA   1 NA NA   NA 0.1360000
+2981  keenaji01   1890     1    CIN   NL  54 202 21 28   4   2  3  19  5 NA 19 36  NA   1 NA NA   NA 0.1386139
+6852  bergebi01   1909     1    BRO   NL 112 346 16 48   1   1  1  15  4 NA 10 NA  NA   0 16 NA   NA 0.1387283
+5593  buelofr01   1904     2    tot   AL  84 255 17 36   5   2  0  10  4 NA 19 NA  NA   1 12 NA   NA 0.1411765
+2445  burdoja01   1888     2    tot   AA  92 325 20 46   1   2  1  12 10 NA 10  5  NA   6 NA NA   NA 0.1415385
+1835  bassech01   1885     1    PRO   NL  82 285 21 41   8   2  0  16 NA NA 19 60  NA  NA NA NA   NA 0.1438596
+6054  armbrch01   1906     1    BOS   AL  72 201  9 29   6   1  0   6  2 NA 25 NA  NA   1  4 NA   NA 0.1442786
+49905  woodbr01   2010     1    LAA   AL  81 226 20 33   2   0  4  14  1  0  6 71   0   2  8  1    3 0.1460177
+
+Brandon Wood was a first round pick, but finished with a career .186 batting average in 700 career at bats.
 
 300 at bats
 > orderedBattingnopitchers_300atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 300)
 > head(orderedBattingnopitchers_300atbats)
        playerID yearID stint teamID lgID   G  AB  R  H X2B X3B HR RBI SB CS BB  SO IBB HBP SH SF GIDP        BA
-7491  bergebi01   1909     1    BRO   NL 112 346 16 48   1   1  1  15  4 NA 10  NA  NA   0 16 NA   NA 0.1387283
-2091  gerhajo01   1885     1    NY1   NL 112 399 43 62  12   2  0  33 NA NA 24  47  NA  NA NA NA   NA 0.1553885
-6655  bergebi01   1906     1    BRO   NL 103 353  9 56   3   3  0  19  2 NA  7  NA  NA   0 12 NA   NA 0.1586402
-53850  dunnad01   2011     1    CHA   AL 122 415 36 66  16   0 11  42  0  1 75 177   0   4  0  2   10 0.1590361
-1505  bakerge01   1884     1    SLU   UA  80 317 39 52   6   0  0  NA  0 NA  5  NA  NA  NA NA NA   NA 0.1640379
-3731  canavji01   1892     1    CHN   NL 118 439 48 73  10  11  0  32 33 NA 48  48  NA   0 NA NA   NA 0.1662870
+6852  bergebi01   1909     1    BRO   NL 112 346 16 48   1   1  1  15  4 NA 10  NA  NA   0 16 NA   NA 0.1387283
+2445  burdoja01   1888     2    tot   AA  92 325 20 46   1   2  1  12 10 NA 10   5  NA   6 NA NA   NA 0.1415385
+2080  cranesa01   1886     2    tot   NL  86 301 34 46   5   3  1  19 14 NA 21  61  NA  NA NA NA   NA 0.1528239
+1899  gerhajo01   1885     1    NY1   NL 112 399 43 62  12   2  0  33 NA NA 24  47  NA  NA NA NA   NA 0.1553885
+6067  bergebi01   1906     1    BRO   NL 103 353  9 56   3   3  0  19  2 NA  7  NA  NA   0 12 NA   NA 0.1586402
+50081  dunnad01   2011     1    CHA   AL 122 415 36 66  16   0 11  42  0  1 75 177   0   4  0  2   10 0.1590361
+1407  bakerge01   1884     1    SLU   UA  80 317 39 52   6   0  0  NA  0 NA  5  NA  NA  NA NA NA   NA 0.1640379
+3414  canavji01   1892     1    CHN   NL 118 439 48 73  10  11  0  32 33 NA 48  48  NA   0 NA NA   NA 0.1662870
+29186 roberda06   1974     1    SDN   NL 113 318 26 53  10   1  5  18  2  0 32  69   6   2  4  2    9 0.1666667
+1836  bastich01   1885     1    PHI   NL 103 389 63 65  11   5  4  29 NA NA 35  82  NA  NA NA NA   NA 0.1670951
 
-Here's the Big Donkey, Adam Dunn's, disastrous 2011 season appears for the first time
+Here's the Big Donkey, Adam Dunn's, disastrous 2011 season appears for the first time.
+Dave Roberts managed to sandwith a .167 season in 1974 between .286 in 1973 and .283 in 1975.
 
 400 at bats
 > orderedBattingnopitchers_400atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 400)
 > head(orderedBattingnopitchers_400atbats)
        playerID yearID stint teamID lgID   G  AB  R  H X2B X3B HR RBI SB CS BB  SO IBB HBP SH SF GIDP        BA
-53850  dunnad01   2011     1    CHA   AL 122 415 36 66  16   0 11  42  0  1 75 177   0   4  0  2   10 0.1590361
-3731  canavji01   1892     1    CHN   NL 118 439 48 73  10  11  0  32 33 NA 48  48  NA   0 NA NA   NA 0.1662870
-3147  conrobe01   1890     1    PH4   AA 117 404 45 69  13   1  0  21 17 NA 45  NA  NA   5 NA NA   NA 0.1707921
-40754  deerro01   1991     1    DET   AL 134 448 64 80  14   2 25  64  1  3 89 175   1   0  0  2    3 0.1785714
-55673 ugglada01   2013     1    ATL   NL 136 448 60 80  10   3 22  55  2  0 77 171   2   9  0  3    7 0.1785714
-3716  boyleja01   1892     1    NY1   NL 120 436 52 80   8   8  0  32 10 NA 36  41  NA   4 NA NA   NA 0.1834862
+50081  dunnad01   2011     1    CHA   AL 122 415 36 66  16   0 11  42  0  1 75 177   0   4  0  2   10 0.1590361
+3414  canavji01   1892     1    CHN   NL 118 439 48 73  10  11  0  32 33 NA 48  48  NA   0 NA NA   NA 0.1662870
+2891  conrobe01   1890     1    PH4   AA 117 404 45 69  13   1  0  21 17 NA 45  NA  NA   5 NA NA   NA 0.1707921
+37970  deerro01   1991     1    DET   AL 134 448 64 80  14   2 25  64  1  3 89 175   1   0  0  2    3 0.1785714
+51755 ugglada01   2013     1    ATL   NL 136 448 60 80  10   3 22  55  2  0 77 171   2   9  0  3    7 0.1785714
+3401  boyleja01   1892     1    NY1   NL 120 436 52 80   8   8  0  32 10 NA 36  41  NA   4 NA NA   NA 0.1834862
+7758  zimmeed01   1911     1    BRO   NL 122 417 31 77  10   7  3  36  9 NA 34  37  NA   2 16 NA   NA 0.1846523
+24793 brinked01   1965     1    WS2   AL 154 444 35 82  13   2  5  35  1  2 38  82   7   2  5  2   11 0.1846847
+5434  gochnjo01   1903     1    CLE   AL 134 438 48 81  16   4  0  48 10 NA 48  NA  NA   0 26 NA   NA 0.1849315
+5199  gochnjo01   1902     1    CLE   AL 127 459 45 85  16   4  0  37  7 NA 38  NA  NA   0  9 NA   NA 0.1851852
 
 Dunn's year was horrible.  He had only 11 home runs while striking out 177 times.  Even more 
 remarkable is his 75 walks to go with 66 hits;  White Sox outfielder Alex Rios had a lower on base 
 percentage that year.  Not a great year for White Sox hitters.
+Rob Deer and Dan Uggla managed to both go 80 for 448 for .179 averages.
+Deer was one of the first true outcome guys.
+Uggla won a Silver Slugger in 2010 and then quit hitting.
 
 500 at bats
 > orderedBattingnopitchers_500atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 500)
