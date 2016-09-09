@@ -85,6 +85,12 @@ Let's try more at bats.  How about the worst batting averages with 100 at bats?
 8029  orourfr01   1912     1    BSN   NL 61 196 11 24   3   1  0  16  1 NA 11 50  NA   2  7 NA   NA 0.12244898
 37882 benjami01   1991     1    SFN   NL 54 106 12 13   3   0  2   8  3  0  7 26   2   2  3  2    1 0.12264151
 
+Two players from 1991 made this list:  
+Jose Gonzalez was a defensive replacement outfielder for the Dodgers.  
+He appeared in 159 games in his career in which he did not bat, which was a good thing.
+In the same division, Mike Benjamin was hitting .122 for the Giants.
+Had to believe this was the start of the steroid era.
+
 150 at bats
 > orderedBattingnopitchers_150atbats <- subset(orderedBattingnopitchers_70atbats, AB >= 150)
 > head(orderedBattingnopitchers_150atbats)
