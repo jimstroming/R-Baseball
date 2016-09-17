@@ -13,15 +13,15 @@ White sox	  72 75	    3 3 0	     3 3 0	    9 9	0          87  75	    15
 
 White Sox wildcard chances (Top 2 make the playoffs)
 
-		vs other  vs Toronto  vs Yankees  vs Batlimore	vs Kansas City	vs Houston vs Seattle vs Chicago vs Detroit							
-	W  L	 G  W  L    G  W  L    G W L	  G W L	        G W L	G	W	L	G	W	L	G	W	L	G	W	L	total games	wins	losses	total games	left
-Baltmr	81 66	 9  0  9    3  2  1    3 0 3																			162	83	79	162	15
-Toronto	81 66	 5  0  5	       4 1 3	  3 1 2							3	0	3							162	83	79	162	15
-Detroit	78 69	12  0 12										3	0	3													162	78	84	162	15
-Seattle	78 69	 7  0  7    3  3  0										5	0	5										162	81	81	162	15
-Yankees	77 70	 8  0  8    4  3  1		  3 3 0																162	83	79	162	15
-Houston	77 70	10  0 10																5	5	0							162	82	80	162	15
-K City	74 73	 9  0  9																			3	0	3	3	3	0	162	77	85	162	15
-Wt Sox	72 75	12 12  0										3	3	0													162	87	75	162	15
+		vs other  vs Toronto  vs Yankees  vs Balmre  vs KC  vs Hstn vs Stle vs Chc vs Dtr	Best Case     games					
+	W  L	 G  W  L    G  W  L    G W L	  G W L	     G W L   G W L   G W L   G W L  G W	L     for White Sox   left
+Baltmr	81 66	 9  0  9    3  0  3    3 0 3																			162	83	79	162	15
+Toronto	81 66	 5  0  5	       4 4 0	  3 3 0	                     3 3 0			 81 81	       15
+Detroit	78 69	12  0 12				     3 0 3					 91 71	       15
+Seattle	78 69	 7  0  7    3  0  3				     5 2 3				 78 84	       15
+Yankees	77 70	 8  0  8    4  0  4		  3 3 0							 80 82	       15
+Houston	77 70	10  0 10						     5 3 2			 80 82	       15
+K City	74 73	 9  0  9							     3 0 3  3 3	0	 80 82	       15
+Wt Sox	72 75	12 12  0				     3 3 0					 87 75	       15
 
 
