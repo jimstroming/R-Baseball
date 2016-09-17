@@ -1,7 +1,8 @@
 As of End of Friday, Sep 16
 
-White Sox division chances   (Best case for the White Sox)
+White Sox division chances (Best case for the White Sox)
 
+                                  Games Remaining vs Opponent
 	         Current   vs Clv.  Vs Det.  vs KC   vs WS  vs other	 best case	  games
 	          W   L     G W L   G W L    G W L   G W L  G W	L	 for White Sox     left
 Cleveland	  85 62		    6 0 6    6 0 6   3 0 3  0 0	0          85  77	    15
