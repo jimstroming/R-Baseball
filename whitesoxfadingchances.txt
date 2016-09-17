@@ -1,10 +1,10 @@
 As of End of Friday, Sep 16
 
-White Sox division chances
+White Sox division chances   (Best case for the White Sox)
 
-	         Current	  vs Clv.	 Vs Det.  vs KC		vs WS		vs other		best case				games
-			      W    L     G W L	  G	W	L	  G	W	L	  G	W	L	  G	W	L	    for White Sox     left
-Cleveland	  85	62				      6	0	6	  6	0	6	  3	0	3	  0	0	0		     85	77	         15
-Detroit	    78	69	   6 6 0				    3	0	3			  	  6	0	6		     84	78	         15
-Kansas City	74	73	   6 6 0	  3	3	0				    3	0	3	  3	0	3		     83	79	         15
-White sox	  72	75	   3 3 0				    3	3	0			   	  9	9	0		     87	75	         15
+	         Current   vs Clv.  Vs Det.  vs KC   vs WS  vs other	 best case	  games
+	          W   L     G W L   G W L    G W L   G W L  G W	L	 for White Sox     left
+Cleveland	  85 62		    6 0 6    6 0 6   3 0 3  0 0	0          85  77	    15
+Detroit	          78 69	    6 6 0	     3 0 3	    6 0	6          84  78	    15
+Kansas City	  74 73	    6 6 0   3 3 0	     3 0 3  3 0	3          83  79	    15
+White sox	  72 75	    3 3 0	     3 3 0	    9 9	0          87  75	    15
