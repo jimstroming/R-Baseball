@@ -1,27 +1,29 @@
-As of End of Friday, Sep 16, the White Sox playoff chances are not good.
+As of Sunday morning, Sep 18, the White Sox playoff chances are not good.
 Fangraph puts their chances at 0%, which is technically not true.
 
-White Sox division best case for the White Sox
+Cleveland's victory over Detroit coupled with the White Sox loss to 
+the Royals puts the Sox on the brink of elimination for the division
 
                                   Games Remaining vs Opponent
 	         Current   vs Clv.  Vs Det.  vs KC   vs WS  vs other	 best case	  games
 	          W   L     G W L   G W L    G W L   G W L  G W	L	 for White Sox     left
-Cleveland	  85 62		    6 0 6    6 0 6   3 0 3  0 0	0          85  77	    15
-Detroit	          78 69	    6 6 0	     3 0 3	    6 0	6          84  78	    15
-Kansas City	  74 73	    6 6 0   3 3 0	     3 0 3  3 0	3          83  79	    15
-White sox	  72 75	    3 3 0	     3 3 0	    9 9	0          87  75	    15
+Cleveland	  86 62		    5 0 5    6 0 6   3 0 3  0 0	0          86  77	    14
+Detroit	          78 70	    5 5 0	     3 0 3	    6 0	6          83  79	    14
+Kansas City	  75 73	    6 6 0   3 3 0	     2 0 2  3 0	3          84  78	    14
+White sox	  72 76	    3 3 0	     2 2 0	    9 9	0          86  76	    14
 
-White Sox wildcard best case for the white sox (Top 2 make the playoffs)
+Fortunately for the Sox, the teams ahead of them in the wildcard race also lost. 
+But the Sox can not afford many more losses.  (Top 2 make the playoffs)
 
 		vs other  vs Toronto  vs Yankees  vs Balmre  vs KC  vs Hstn vs Stle vs Chc vs Dtr	Best Case     games					
 	W  L	 G  W  L    G  W  L    G W L	  G W L	     G W L   G W L   G W L   G W L  G W	L     for White Sox   left
-Baltmr	81 66	 9  0  9    3  0  3    3 0 3								 81 81	       15
-Toronto	81 66	 5  0  5	       4 4 0	  3 3 0	                     3 3 0			 91 71	       15
-Detroit	78 69	12  0 12				     3 0 3					 78 84	       15
-Seattle	78 69	 7  0  7    3  0  3				     5 2 3				 80 82	       15
-Yankees	77 70	 8  0  8    4  0  4		  3 3 0							 80 82	       15
-Houston	77 70	10  0 10						     5 3 2			 80 82	       15
-K City	74 73	 9  0  9							     3 0 3  3 3	0	 77 85	       15
-Wt Sox	72 75	12 12  0				     3 3 0					 87 75	       15
+Baltmr	81 67	 8  0  8    3  0  3    3 0 3								 81 81	       14
+Toronto	81 67	 4  0  4	       4 4 0	  3 3 0	                     3 3 0			 91 71	       14
+Detroit	78 70	11  0 11				     3 0 3					 78 84	       14
+Seattle	78 70	 7  0  7    3  0  3				     4 2 2				 80 82	       14
+Yankees	77 71	 7  0  7    4  0  4		  3 3 0							 80 82	       14
+Houston	78 70	10  0 10						     4 2 2			 80 82	       14
+K City	75 73	 9  0  9							     2 0 2  3 3	0	 78 84	       14
+Wt Sox	72 76	12 12  0				     2 2 0					 86 76	       14
 
 
