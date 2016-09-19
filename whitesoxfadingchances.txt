@@ -1,8 +1,7 @@
-The White Sox playoff chances are not good.
-Fangraph puts their chances at 0%, which is technically not true.
+The White Sox playoff chances are not good.  9 behind Toronto for the 2nd wildcard with 13 games left,
+and five teams in between.  Fangraph puts their chances at 0%, which is technically not true.
 
-The White Sox wild card chances are very slim.  Updated with they Yankees lost to the Red Sox last night, which
-was good for the White Sox.
+Updated with the Yankees loss to the Red Sox last night, which was good for the White Sox.
 
 
 		vs other  vs Toronto  vs Yankees  vs Balmre  vs KC  vs Hstn vs Stle vs Chc vs Dtr	Best Case     games					
