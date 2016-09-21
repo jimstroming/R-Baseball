@@ -8,10 +8,10 @@ The Sox can now win a maximum of 83 games.  It will take no less than 82 wins to
 		vs other  vs Toronto  vs Yankees  vs Balmre  vs KC  vs Hstn vs Stle vs Chc vs Dtr	Best Case     games					
 	W  L	 G  W  L    G  W  L    G W L	  G W L	     G W L   G W L   G W L   G W L  G W	L     for White Sox   left
 Baltmr	82 69	 5  0  5    3  0  3    3 0 3								 82 80	       11
-Toronto	83 68	 3  0  3	       4 4 0	  3 3 0	                     1 1 0			 91 71	       12
+Toronto	83 68	 3  0  3	       4 4 0	  3 3 0	                     1 1 0			 91 71	       11
 Detroit	80 70	 9  0  9				     3 0 3					 80 82	       12
-Houston	80 71	 8  0  8						     3 1 2			 81 81	       12
-Seattle	79 72	 7  0  7    1  0  1				     3 2 1				 81 81	       12
+Houston	80 71	 8  0  8						     3 1 2			 81 81	       11
+Seattle	79 72	 7  0  7    1  0  1				     3 2 1				 81 81	       11
 Yankees	78 72	 5  0  5    4  0  4		  3 3 0							 81 81	       12
 K City	77 74	 8  0  8							            3 3	0	 80 82	       11
 Wt Sox	72 79	11 11  0				          					 83 79	       11
