@@ -1,19 +1,21 @@
 The White Sox playoff chances are not good.  Fangraph puts their chances at 0%, which is technically not true.
 
-The fourth straight White Sox loss on Tuesday night almost ends their wildcard chances.
-The Sox can now win a maximum of 83 games.  It will take no less than 82 wins to claim the 2nd wildcard.
+And the White Sox lose their fifth straight.  They have definitely not performed well since I started this
+little tracking assignment!  Baltimore losing has kept the Sox temporarily alive, but wins by Houston, Seattle,
+and the Yankees mean the Sox only shot at the playoffs is an extremely unlikely 5-way tie for the seconds wildcard
+at 82-80.  (Not sure what the 5-way wildcard tie breaking procedure is.)
 
 
                             Remaining games, projected outcomes in the White Sox best interest
 		vs other  vs Toronto  vs Yankees  vs Balmre  vs KC  vs Hstn vs Stle vs Chc vs Dtr	Best Case     games					
 	W  L	 G  W  L    G  W  L    G W L	  G W L	     G W L   G W L   G W L   G W L  G W	L     for White Sox   left
-Baltmr	82 69	 5  0  5    3  0  3    3 0 3								 82 80	       11
-Toronto	83 68	 3  0  3	       4 4 0	  3 3 0	                     1 1 0			 91 71	       11
+Toronto	83 68	 3  0  3	       4 4 0	  3 3 0	                     1 1 0			 90 72	       11
+Baltmr	82 70	 4  0  4    3  0  3    3 0 3								 82 80	       11
 Detroit	80 70	 9  0  9				     3 0 3					 80 82	       12
-Houston	80 71	 8  0  8						     3 1 2			 81 81	       11
-Seattle	79 72	 7  0  7    1  0  1				     3 2 1				 81 81	       11
-Yankees	78 72	 5  0  5    4  0  4		  3 3 0							 81 81	       12
+Houston	81 71	 7  0  7						     3 1 2			 82 80	       11
+Seattle	80 72	 7  0  7           				     3 2 1				 82 80	       11
+Yankees	79 72	 4  0  4    4  0  4		  3 3 0							 82 80	       12
 K City	77 74	 8  0  8							            3 3	0	 80 82	       11
-Wt Sox	72 79	11 11  0				          					 83 79	       11
+Wt Sox	72 79	10 10  0				          					 82 80	       11
 
 
