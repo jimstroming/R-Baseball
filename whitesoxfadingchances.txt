@@ -12,12 +12,12 @@ Seattle win, Yankee win, or, of course, if the White Sox do not win and end thei
 		vs other  vs Toronto  vs Yankees  vs Balmre  vs KC  vs Hstn vs Stle vs Chc vs Dtr	Best Case     games					
 	W  L	 G  W  L    G  W  L    G W L	  G W L	     G W L   G W L   G W L   G W L  G W	L     for White Sox   left
 Toronto	83 69	 3  0  3	       4 4 0	  3 3 0	                         			 90 72	       10
-Detroit	82 70	 7  0  7				     3 0 3					 80 82	       12
-Baltmr	82 71	 3  0  3    3  0  3    3 0 3								 82 80	       10
-Houston	81 72	 6  0  6						     3 1 2			 82 80	       10
+Detroit	82 70	 7  0  7				     3 0 3					 82 80	       10
+Baltmr	82 71	 3  0  3    3  0  3    3 0 3								 82 80	        9
+Houston	81 72	 6  0  6						     3 1 2			 82 80	        9
 Seattle	80 72	 7  0  7           				     3 2 1				 82 80	       10
-Yankees	79 73	 3  0  3    4  0  4		  3 3 0							 82 80	       11
-K City	77 76	 6  0  6							            3 3	0	 80 82	       10
+Yankees	79 73	 3  0  3    4  0  4		  3 3 0							 82 80	       10
+K City	77 76	 6  0  6							            3 3	0	 80 82	        9
 Wt Sox	72 80	10 10  0				          					 82 80	       10
 
 
